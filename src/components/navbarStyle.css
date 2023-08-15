@@ -1,0 +1,13 @@
+.navbar-brand{
+    height: 70px;
+    animation: movement 2s ease-in-out alternate-reverse infinite;
+}
+
+@keyframes movement{
+    0%{
+        transform: translateY(2px)
+      }
+      100%{
+        transform: translateY(-2px) 
+      }
+}
